@@ -4,7 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-Flask = "*"
+requests = "*"
+flask = "*"
+"pdfminer.six" = "*"
 
 [dev-packages]
 
