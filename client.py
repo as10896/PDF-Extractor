@@ -6,4 +6,5 @@ def pdf_extract(filename):
     r = requests.post(url, files=files)
     return r.text
 
-print(pdf_extract("國立清華大學106學年度行事曆.pdf"))
+if __name__ == "__main__":
+    print(pdf_extract("國立清華大學106學年度行事曆.pdf"))
