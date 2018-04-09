@@ -1,6 +1,6 @@
 ## Install:
-`$ pip install pipenv`
-`$ pipenv install`
+`$ pip install pipenv`<br>
+`$ pipenv install`<br>
 then type `$ pipenv shell` to activate this project's virtualenv
 
 ## Start server:
